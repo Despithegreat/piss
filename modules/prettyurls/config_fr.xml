@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>prettyurls</name>
+    <displayName><![CDATA[URLs utils]]></displayName>
+    <version><![CDATA[2.2.8]]></version>
+    <description><![CDATA[Ce module va supprimer les ID des URL et  les rendre appropri&eacute; pour SEO ]]></description>
+    <author><![CDATA[FMM Modules]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

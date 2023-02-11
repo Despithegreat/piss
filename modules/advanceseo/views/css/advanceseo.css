@@ -1,0 +1,28 @@
+#accordion { padding: 0px !important; overflow: hidden}
+#wrapper { width:auto; margin:0 auto; }
+h3.accordion { cursor: pointer; position:static !important; display:block !important; margin: 0 !important; height: auto !important; line-height: normal !important; background:#fff !important; padding:1% !important; border:0px !important; border-bottom:#E5E5E5 1px solid !important; text-decoration:none; text-transform:uppercase; color: #556E26; font-size:1.2em !important; font-weight:normal !important; }
+.accordion-open, .collapse-open { color:#4369CC !important; }
+.accordion:after {content: '.'; display: block; clear: both; height: 0px; width: 100%; visibility: hidden; line-height: 0px}
+.accordion-open span, .collapse-open span { display:block; float:right; padding:10px; }
+.accordion-open span, .collapse-open span { background:url(../img/minus.png) center center no-repeat; }
+.accordion-close span, .collapse-close span { display:block; float:right; background:url(../img/plus.png) center center no-repeat; padding:10px; }
+#accordion div.container { padding:0; margin:0; border-bottom:#E5E5E5 1px solid; }
+#accordion div.content { background: #F8FCFE;  margin: 0; padding:2%; font-size:.9em; line-height:1.5em; font-family:Arial, Helvetica, Geneva, sans-serif; }
+#accordion div.content ul, #accordion div.content p { padding:0; margin:0; padding:3px; }
+#accordion div.content ul li { list-style-position:inside; line-height:25px; }
+#accordion div.content ul li a { color:#555555; }
+#accordion .container { width:auto !important; }
+#accordion .content:after { content:"."; display:block; clear:both; visibility:hidden }
+#accordion .margin-form { margin-bottom:10px; }
+
+/*--------- New Style Changes --------*/
+#fmm_bo_accordion h3 i { font-size: 18px; border-radius: 50%; border: 1px solid #25b9d7; color: #40c9ed; padding: 6px; margin-right: 5px;
+font-weight: 700; font-style: normal; vertical-align: middle}
+
+#fmm_bo_accordion .language_flags { padding: 3px; border: 1px solid #ccc; border-radius: 5px; margin-top: 3px; display: none;}
+
+#fmm_bo_accordion .language_flags br { display: none}
+
+#fmm_bo_accordion .language_flags img { margin-left: 2px;}
+
+.fmm_dropme { cursor: pointer;}

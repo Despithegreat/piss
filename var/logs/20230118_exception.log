@@ -1,0 +1,2 @@
+*ERROR* 	v8.0.0	2023/01/18 - 10:04:04: Link to database cannot be established: SQLSTATE[HY000] [1130] Host &#039;127.0.0.1&#039; is not allowed to connect to this MariaDB server at line 118 in file classes/db/DbPDO.php
+*ERROR* 	v8.0.0	2023/01/18 - 23:34:37: Link to database cannot be established: SQLSTATE[HY000] [1130] Host &#039;127.0.0.1&#039; is not allowed to connect to this MariaDB server at line 118 in file classes/db/DbPDO.php

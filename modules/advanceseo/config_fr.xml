@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>advanceseo</name>
+    <displayName><![CDATA[R&eacute;f&eacute;rencement avanc&eacute;]]></displayName>
+    <version><![CDATA[2.4.3]]></version>
+    <description><![CDATA[Module de r&eacute;f&eacute;rencement avanc&eacute; pour PrestaShop]]></description>
+    <author><![CDATA[FMM Modules]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

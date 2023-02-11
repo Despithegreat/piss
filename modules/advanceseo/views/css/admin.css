@@ -1,0 +1,38 @@
+.icon-AdminAdvanceSeo:before { content: "\f0c1";}
+#advanceseo_chk_blk { padding-top: 10px;}
+#advanceseo_chk_blk input[type="checkbox"],
+.advseo_extra_opts input[type="checkbox"] { vertical-align: middle; margin: 0}
+#advanceseo_chk_blk ul { padding-top: 15px; margin: 0;}
+#advseo_pages_excl { padding-top: 5px;}
+#advseo_pages_excl li { width: 32%; min-width: 200px; display: inline-block; list-style: none; padding: 5px 0;}
+.advseo_extra_opts { padding: 6px; border-radius: 4px; border: 1px solid #25b9d7; margin: 0px 0 0;}
+.advseo_extra_opts li { list-style: none; display: block; padding: 3px 0}
+.advseo_selector { padding: 5px 0 10px; margin: 0; list-style: none;}
+.advseo_selector li { display: inline-block; margin-right: 5px; font-weight: bold;}
+.advseo_selector li a {border-radius: 4px; border: 1px solid #25b9d7; background: #fff; color: #25b9d7; padding: 5px 8px;}
+.advseo_selector li a:hover { background: #25b9d7; color: #fff; text-decoration: none}
+.advseo_selector li a:active,
+.advseo_selector li a:focus {text-decoration: none}
+.advseo_warning { display: block; padding-top: 20px; font-size: 11px; color: #e50b70; font-style: italic}
+.custom-tab-fmm-advseo {height: auto !important; top: 8.6rem !important;}
+.bootstrap .page-head.custom-tab-fmm-advseo .page-head-tabs ul.nav li.active {
+    border-bottom: 3px solid #25b9d7;
+    border-bottom: .1875rem solid #25b9d7;
+    background: #f3f9fb;
+    color: #000000;
+}
+#advanceseo_configuration { padding-top: 4rem;}
+.custom-tab-fmm-advseo.ps16 { position: static;}
+.custom-tab-fmm-advseo.ps16 ul li { display: inline-block; vertical-align: middle;}
+.custom-tab-fmm-advseo.ps16 ul li a {color: #585858}
+
+/*------- New Serp block -------*/
+.fmm_seo_preview { display: block; width: 100%; clear: both; padding: 1%; border: 2px dashed #bbcdd2; margin-top: 15px; overflow: hidden;}
+.fmm_seo_preview h2 { padding: 0; margin: 0 0 10px;}
+.fmm_seo_preview p { color: #545454; font-size: 13px; margin-bottom: 5px;}
+.fmm_seo_preview label { color: #6c868e; margin: 0; font-weight: normal;}
+.fmm_seo_preview span { font-weight: bold; color: #25b9d7;}
+.fmm_seo_preview i { margin-left: 4px; font-weight: bold; text-transform: capitalize;}
+.fmm_seo_preview i.good { color: #006621}
+.fmm_seo_preview i.average { color: #f1b746}
+.fmm_seo_preview i.bad { color: #d93025}

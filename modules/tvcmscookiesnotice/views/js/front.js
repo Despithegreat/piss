@@ -1,0 +1,1 @@
+$(document).ready(function(){$(document).on("click",".tvcmscookies-notice .close-cookie",function(){$.ajax({type:"POST",url:baseDir+"modules/tvcmscookiesnotice/ajax.php?",cache:false,data:"close_cookie=true&token="+static_token,success:function(a){if(a=="true"){$(".tvcmscookies-notice").fadeOut("500")}},error:function(a,c,b){console.log(c,b)}})})});

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".tvcustomize-btn.fancybox").fancybox({afterLoad:function(){this.inner.append("<div class='cms-description'>"+document.getElementById("tvcmssizechart-popup").innerHTML+"</div>")}})});

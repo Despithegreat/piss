@@ -1,0 +1,19 @@
+<?php //PrestaShopBundle%255CController%255CAdmin%255CConfigure%255CAdvancedParameters%255CEmployeeController%2523editAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['PrestaShopBundle\\Security\\Annotation\\DemoRestricted'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PrestaShopBundle\\Security\\Annotation\\DemoRestricted')),
+    ],
+    null,
+    [
+        'PrestaShopBundle\\Security\\Annotation\\DemoRestricted' => [
+            'redirectRoute' => [
+                'admin_employees_index',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];
